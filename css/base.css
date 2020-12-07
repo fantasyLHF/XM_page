@@ -1,0 +1,32 @@
+/* 清除内外边距 */
+*{
+    margin: 0;
+    padding: 0;
+}
+/* 左浮动 */
+.fl{
+    float: left;
+}
+/* 右浮动 */
+.fr{
+    float: right;
+}
+/* 清除浮动 */
+.clearfix:after{
+    content: "";
+    height: 0;
+    clear: both;
+    display: block;
+    visibility: hidden;
+}
+.clearfix{
+    zoom: 1;
+}
+/* 清除a标签样式 */
+a{
+    text-decoration: none;
+}
+/* 清除li样式 */
+ul li{
+    list-style: none;
+}
